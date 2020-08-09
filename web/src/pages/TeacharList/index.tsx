@@ -36,7 +36,7 @@ async function searchTeachers(e: FormEvent){
 
 return (
         <div id="page-teacher-list" className="container">
-        <PageHeader title="Estes são os proffys disponíveis.">
+        <PageHeader title="Estes são os atendimentos disponíveis.">
             <form id="search-teachers" onSubmit={searchTeachers}  >
             <Select name='subject' 
             label='Matéria'

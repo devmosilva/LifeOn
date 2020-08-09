@@ -1,7 +1,8 @@
 import React, {useState , useEffect} from 'react'
 
-import logoImg from '../../assets/images/logo.svg'
-import landingImg from '../../assets/images/landing.svg'
+import logoImg from '../../assets/images/logo.png'
+
+import landingImg from '../../assets/images/home.png'
 
 import { Link } from 'react-router-dom'
 
@@ -30,21 +31,21 @@ function Landing(){
             <div id="page-landing-content" className="container">
                 <div className="logo-container">
                     <img src={logoImg} alt="Logo Proffy" />
-                    <h2>Aplicação ainda em contrução...</h2>
+                    <h2>Sua saúde não pode terminar antes da pandemia.</h2>
                 </div>
                 <img src={landingImg} alt="Landing" className="hero-image"/>
                 <div className="buttons-container">
                     <Link to='/study' className="study" > 
                     <img src={studyIcon} alt="Estudar"/>
-                    Estudar
+                    Consulta
                     </Link>
 
                     <Link to='/give-classes' className="give-classes" > 
-                    <img src={giveClassesIcon} alt="Estudar"/>
-                    Dar aulas
+                <img src={giveClassesIcon} alt="Estudar"/> 
+                        Atenda
                     </Link>
                 </div>
-
+               
                 <span className="total-connections">
                     total de {totalConnections} conexões 
                     <img src={purpleHeartIcon} alt="Coração roxo" />

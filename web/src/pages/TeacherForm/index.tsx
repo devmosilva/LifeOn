@@ -83,8 +83,8 @@ function TeacherForm(){
 
 return (
     <div className="container" id="page-teacher-form">
-    <PageHeader  title="F" 
-    description='esse é o sub titulo'/>
+    <PageHeader  title="Cadastro de Atendimento" 
+    description='Estamos felizes por nos escolher.'/>
 
     <main>
         <form onSubmit={handleCreateClass}>
